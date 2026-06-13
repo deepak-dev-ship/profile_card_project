@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#parent {
+  height: 50%;
+  width: 25%;
+  border: grey 3px solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15%;
+  flex-direction: column;
+}
+#circle {
+  width: 25%;
+  height: 25%;
+  max-height: 25%;
+  border-radius: 50%;
+  background-color: skyblue;
+  color: blue;
+  padding: 45px;
+  margin-top:50%;
+}
+#circle h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#content
+{
+    padding-top: 25px;
+    margin-bottom: 35px;
+}
+footer button
+{
+    padding:20px 20px;
+    border-radius: 20%;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: skyblue;
+}
+button:hover,a:hover
+{
+    cursor: pointer;
+}
