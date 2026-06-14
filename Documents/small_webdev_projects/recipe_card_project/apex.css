@@ -1,0 +1,45 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#recipecard
+{
+    width: 20%;
+    height: 60%;
+    background-color: snow;
+    border: grey 2px solid;
+    border-radius: 25px;
+}
+img
+{
+    width: 100%;
+    display: block;
+    border-radius: 25px 25px 0 0;
+}
+#recipe-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 30px;
+}
+button
+{
+    align-self: center;
+    align-self: stretch;
+    padding: 10px 0 10px 0;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: rgb(76, 76, 214);
+}
